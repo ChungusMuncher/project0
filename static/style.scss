@@ -1,0 +1,120 @@
+$backcolor: #eee;
+$mali: 'Mali', sans-serif;
+$meri: 'Merienda', sans-serif;
+$K2D: 'K2D', sans-serif;
+
+%up {
+    position: relative;
+    bottom: 50px;
+}
+
+// Index page styling
+#body, .jumbotron {
+    background-color: $backcolor;
+}
+#backbutton
+{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    width: 200px;
+
+    padding: 10px;
+
+    font-family: $K2D;
+}
+.jumbotron {
+    
+    p {
+        font-family: $mali;
+    }
+    h1 {
+        font-family: $K2D;
+    }
+
+    .recipeheader {
+        font-family: $K2D;
+    }
+
+}
+
+
+.card {
+
+    h5 {
+        font-family: $meri;
+    }
+
+    p {
+        font-family: $mali;
+    }
+
+    .btn {
+        font-family: $K2D;
+    }
+}
+
+.card-deck {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+// Recipe page styling
+table {
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    float: none;
+    font-family: $mali;
+
+    th {
+        font-family: $meri;
+    }
+}
+
+.steps {
+
+    h4 {
+        font-family: $K2D;
+    }
+    
+    p {
+        font-family: $mali;
+    }
+
+    .media-body {
+        @media (max-width: 499px) {
+            p {
+            font-size: 22;
+            }
+ 
+ 
+        }
+}   }
+
+.ingredients {
+    h4 {
+        font-family: $meri;
+    }
+
+    li {
+        list-style: none
+    }
+}
+
+.recipeimage {
+    @extend %up;
+    margin: 0 auto;
+    
+    @media (min-width: 600px) {
+        width: 75%;
+    }
+
+    @media (max-width: 599px) {
+        width: 45%;
+    }
+}
+
+

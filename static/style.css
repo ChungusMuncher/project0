@@ -1,0 +1,89 @@
+.recipeimage {
+  position: relative;
+  bottom: 50px;
+}
+
+#body, .jumbotron {
+  background-color: #eee;
+}
+
+#backbutton {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  height: 50px;
+  width: 200px;
+  padding: 10px;
+  font-family: "K2D", sans-serif;
+}
+
+.jumbotron p {
+  font-family: "Mali", sans-serif;
+}
+.jumbotron h1 {
+  font-family: "K2D", sans-serif;
+}
+.jumbotron .recipeheader {
+  font-family: "K2D", sans-serif;
+}
+
+.card h5 {
+  font-family: "Merienda", sans-serif;
+}
+.card p {
+  font-family: "Mali", sans-serif;
+}
+.card .btn {
+  font-family: "K2D", sans-serif;
+}
+
+.card-deck {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+table {
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+  float: none;
+  font-family: "Mali", sans-serif;
+}
+table th {
+  font-family: "Merienda", sans-serif;
+}
+
+.steps h4 {
+  font-family: "K2D", sans-serif;
+}
+.steps p {
+  font-family: "Mali", sans-serif;
+}
+@media (max-width: 499px) {
+  .steps .media-body p {
+    font-size: 22;
+  }
+}
+
+.ingredients h4 {
+  font-family: "Merienda", sans-serif;
+}
+.ingredients li {
+  list-style: none;
+}
+
+.recipeimage {
+  margin: 0 auto;
+}
+@media (min-width: 600px) {
+  .recipeimage {
+    width: 75%;
+  }
+}
+@media (max-width: 599px) {
+  .recipeimage {
+    width: 45%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
